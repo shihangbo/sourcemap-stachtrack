@@ -7,7 +7,7 @@
     "start": "ts-node-dev ./src/index.ts -P tsconfig.json --no-cache",
     "build": "tsc -P tsconfig.json",
     "test": "jest --config jestconfig.json --coverage",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "tslint -p tsconfig.json"
   },
   "repository": {
